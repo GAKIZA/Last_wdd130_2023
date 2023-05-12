@@ -1,6 +1,5 @@
 @import url(https://coolors.co/0b3954-bfd7ea-7f9172-7a5c61);
-@import url(https://fonts.google.com/specimen/Anek+Gurmukhi);
-
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@200;800&display=swap');
 :root {
     --primary-color:#BFD7EA;
     --Secondary-color:#0B3954;
