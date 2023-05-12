@@ -5,8 +5,8 @@
     --accent1-color:#7F9172;
     --accent2-color:#7A5C61;
 
-    --heading-font:ExtraBold 800;
-    --paragraph-font:ExtraLight 200;
+    --heading-font:ExtraBold 800, serif;
+    --paragraph-font:ExtraLight 200, serif;
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--accent2-color);
