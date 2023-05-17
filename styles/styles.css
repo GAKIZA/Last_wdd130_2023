@@ -29,7 +29,7 @@ main{
     max-width: 840px;
 }
 p {
-    padding: 1.1rem;
+    padding: 0.3rem;
 }
 aside {
     width:900px;
@@ -56,7 +56,7 @@ footer p{
     margin:1rem;
     border: 2px solid rgba(14, 8, 59, 0.9);
     padding:1rem;
-    background-color: rgb(65, 110, 104);
-    color:rgb(224, 221, 188);
+    background-color: rgb(8, 233, 203);
+    color:rgb(110, 108, 73);
 
 }
