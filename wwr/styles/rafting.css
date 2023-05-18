@@ -60,6 +60,5 @@ article img {
     float:right;
 }
 footer {
-    display:-ms-inline-flexbox;
     float: left;
 }
