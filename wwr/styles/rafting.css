@@ -53,12 +53,11 @@ nav a:hover {
 }
 
 .hero img {
-    display: block;
     width:100%;
     height:auto;
     float:right;
 }
-h1, article {
+.hero h1, .hero article {
     position:absolute;
 }
 
