@@ -22,16 +22,16 @@ header {
 padding:20px;
 background-color:var(--accent1-color);
 }
+
 p {
     padding: 25px;
 }
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
 }
 nav a {
-    display:block;
+    display:inline-block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
@@ -58,4 +58,8 @@ h1, article {
 
 article img {
     float:right;
+}
+footer {
+    display:-ms-inline-flexbox;
+    float: right;
 }
