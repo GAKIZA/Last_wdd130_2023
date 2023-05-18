@@ -25,7 +25,6 @@ background-color:var(--accent1-color);
 main div {
     background-image: url(images/background.jpeg);
     background-repeat: repeat;
-    display: block;
     }
 
 p {
@@ -53,17 +52,17 @@ nav a:hover {
 }
 
 .hero img {
+    display: block;
     width:100%;
     height:auto;
-    float:right;
 }
-.hero h1, .hero article {
+h1, article {
     position:absolute;
 }
 
 article img {
     float:right;
 }
-footer {
-    float: left;
+footer img{
+    float: right;
 }
