@@ -61,5 +61,5 @@ article img {
 }
 footer {
     display:-ms-inline-flexbox;
-    float: right;
+    float: left;
 }
