@@ -22,6 +22,9 @@ header {
 padding:20px;
 background-color:var(--accent1-color);
 }
+main div {
+    background-image: url(images/background.jpeg);
+}
 
 p {
     padding: 25px;
