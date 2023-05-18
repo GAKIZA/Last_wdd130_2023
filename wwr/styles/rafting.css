@@ -50,17 +50,17 @@ nav a:hover {
 .hero {
     position: relative;
 }
-
+.hero h1, article {
+    position: absolute;
+}
 .hero img {
     display: block;
     width:100%;
     height:auto;
 }
-h1, article {
-    position:absolute;
-}
 
-article img {
+.hero article img {
+    
     float:right;
 }
 footer img{
