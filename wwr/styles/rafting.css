@@ -2,7 +2,7 @@
 
 :root {
     --primary-color:#333241;
-    --Secondary-color:#0B3954;
+    --secondary-color:#0B3954;
     --accent1-color:#7F9172;
     --accent2-color:#7A5C61;
 
@@ -11,21 +11,18 @@
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--accent2-color);
-    --nav-hover-link-color:var(--Secondary-color);
+    --nav-hover-link-color:var(--secondary-color);
     --nav-hover-background-color:var(--accent2-color);
 }
-h1, h2, h3, h4, h5, h6{
+
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 header {
 padding:20px;
 background-color:var(--accent1-color);
 }
-main div {
-    background-image: url(images/background.jpeg);
-    background-repeat: repeat;
-    }
 
 p {
     padding: 25px;
@@ -47,21 +44,37 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color:var(--nav-hover-background-color);
 }
+p {
+color:rgb(23, 187, 173);
+max-width: 840px;
+}
 .hero {
+    background-color: rgb(66, 31, 42);
+    opacity: 1;
     position: relative;
+    background-image: url("../images/background.jpg");
+    height: 300px;
+   
 }
-.hero h1, article {
-    position: absolute;
-}
-.hero img {
-    display: block;
-    width:100%;
-    height:auto;
+.hero p {
+    background-color: #50564b;
+    width: 1500px;
 }
 
-.hero article img {
-    
-    float:right;
+.hero img, h1 { 
+    display: block;
+    background-color:aqua;
+    width:fit-content
+} 
+
+
+.hero img {
+
+    float: right;
+    width:300px;
+    height:auto;
+    margin-top: 0px;
+
 }
 footer img{
     float: right;
